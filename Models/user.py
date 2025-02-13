@@ -1,5 +1,6 @@
 class User:
-    def __init__(self, name, id, email):
+    def add_services(self,name, id, email):
         self.name = name
         self.id = id
-        self.email = email 
+        self.email = email
+
